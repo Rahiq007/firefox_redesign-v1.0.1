@@ -1,0 +1,92 @@
+/* PopupAd.css */
+.popupad {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 30px;
+    width: auto;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    z-index: 9;
+    animation: popup-show 2s ease-in-out forwards;
+}
+
+@keyframes popup-show {
+    from { transform: scale(0); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+.popup-contentad {
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+    max-width: 500px;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+.closebtnad {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background-color: rgb(209, 192, 192);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #f8f8f8; /* Add a border for better visibility */
+}
+
+.closebtnad:hover {
+    color: #f00;
+    background-color: #f9f9f9; /* Change background color on hover for better visibility */
+}
+
+.ad-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad-title, #ad-view {
+    margin-bottom: 20px;
+}
+
+#monitor-logo, #monitor-ad-pic {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto;
+}
+
+.button-77 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.button-77:hover {
+    background-color: #3e8e41;
+}
+
+.popup-contentad h5 {
+    margin-top: 20px;
+}
+
+  
+  #monitor-ad-pic {
+    position: relative;
+    left: 13%; /* Adjust the value as needed */
+  }
+/* Remove unused styles */
+/* .popup-imagead, .download-buttonad, .popup-contentad h2, .popup-contentad h5 a, .popup-contentad h2::after */
