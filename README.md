@@ -1,6 +1,4 @@
-### Rahiq Majeed 
-
-## firefox_redesign
+## Firefox ExtensionPage Redesign
 
 ## Description
 
